@@ -15,8 +15,8 @@ spec:
     ref: master
   values:
     image:
-      repository: stefanprodan/podinfo
-      tag: stg-9ij63o4c
+      repository: srshinde/podinfo
+      tag: stg-rd6diy4m
     replicaCount: 2
     hpa:
       enabled: true
