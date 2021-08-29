@@ -15,7 +15,7 @@ spec:
     ref: master
   values:
     image:
-      repository: srshinde/podinfo
+      repository: srshinde/jdk-mvn-app
       tag: dev-1usviorp 
     replicaCount: 1
     hpa:
