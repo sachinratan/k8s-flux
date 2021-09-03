@@ -1,11 +1,10 @@
----
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
   name: podinfo-dev
   namespace: dev
   annotations:
-    fluxcd.io/automated: "true"
+    fluxcd.io/automated: 'true'
     filter.fluxcd.io/chart-image: glob:dev-*
 spec:
   releaseName: podinfo-dev
@@ -16,7 +15,7 @@ spec:
   values:
     image:
       repository: srshinde/jdk-mvn-app
-      tag: dev-1usviorp 
+      tag: 2021-09-02T17-45-e09bc03-136
     replicaCount: 1
     hpa:
       enabled: false
