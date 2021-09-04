@@ -15,7 +15,7 @@ spec:
   values:
     image:
       repository: srshinde/jdk-mvn-app
-      tag: 2021-09-03T18-08-e09bc03-138
+      tag: 2021-09-04T10-06-e09bc03-140
     replicaCount: 1
     hpa:
       enabled: false
